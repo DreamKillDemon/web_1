@@ -1,0 +1,377 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.body-sign-in, .body-sign-up {
+    font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: url(/public/image/truyencamhung.png) no-repeat center top #0678b5;
+    background-size:cover;
+}
+body {
+    font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.34em;
+}
+body {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #46484a;
+    background-color: #e6e8ea;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    width: 750px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container:after {
+    clear: both;
+}
+.container:after, .container:before {
+    content: " ";
+    display: table;
+}
+
+div {
+    display: block;
+}
+
+.panel>.panel-body:last-child {
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.panel>.panel-body:first-child {
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+.body-sign-in .panel-body {
+    padding: 30px 40px;
+}
+.panel .panel-body {
+    padding: 20px;
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-body:after, .panel-body:before {
+    content: " ";
+    display: table;
+}
+.panel-body:after {
+    clear: both;
+}
+
+.body-sign-in .form-container {
+    margin-top: 90px;
+}
+
+.body-sign-in .form-container, .body-sign-up .form-container {
+    max-width: 504px;
+    margin: 40px auto 30px;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 26px;
+    border: none;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 18px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.login-logo {
+    padding: 15px 0 35px;
+}
+.text-center {
+    text-align: center;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.login-input, .login-input:focus, .has-error .login-input:focus {
+    height: auto;
+    padding: 12px 11px 10px 10px;
+}
+.form-control, .form-control:focus, .has-error .form-control:focus, .has-success .form-control:focus, .has-warning .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 6px 8px;
+}
+.form-control {
+    height: 32px;
+}
+.form-horizontal .form-group-lg .form-control, .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn, .input-lg {
+    height: 44px;
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-addon:first-child {
+    border-right: 0;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.login-addon {
+    background-color: #f3f3f3;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.input-group-addon {
+    padding: 7px 12px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.login-checkbox {
+    font-size: 1.12em;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    min-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox label, .radio label {
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+label {
+    font-weight: 400;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px \9;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 2px 0 0;
+    margin-top: 1px \9;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.padding-top {
+    padding-top: 10px !important;
+}
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 100%;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.btn-login, .btn-login:hover, .btn-login:focus {
+    border: none;
+    background-color: #7ec142;
+    color: #fff;
+    padding: 14px 10px;
+}
+.btn {
+    line-height: 18px;
+    padding: 6px 10px;
+}
+.btn-lg {
+    line-height: 21px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+.form-control:-ms-input-placeholder {
+    color: #999
+}
+.form-control::-webkit-input-placeholder {
+    color: #999
+}
+
+input[type="text"] {
+    font-size: 16px; /* Đặt kích thước chữ mong muốn */
+}
+
+/* Để thay đổi cỡ chữ cho placeholder */
+::placeholder {
+    font-size: 16px; /* Đặt kích thước chữ mong muốn cho placeholder */
+}
+
+/* Để thay đổi kích thước của các div chứa trường nhập Email và Mật khẩu */
+.login-mail,
+.login-key {
+    margin-bottom: 25px; /* Thay đổi khoảng cách giữa các div */
+}
+
+/* Để thay đổi kích thước của trường nhập Email */
+.login-input-mail {
+    font-size: 20px; /* Đặt kích thước chữ mong muốn */
+    padding: 12px; /* Đặt padding cho trường nhập */
+}
+
+/* Để thay đổi kích thước của trường nhập Mật khẩu */
+.login-input-key {
+    font-size: 20px; /* Đặt kích thước chữ mong muốn */
+    padding: 12px; /* Đặt padding cho trường nhập */
+    
+}
+
+
+input[type="text"], input[type="password"]{
+    border:1px solid#0678b5;
+    border-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+
